@@ -1,0 +1,92 @@
+/* For Mobile */
+
+.headline {
+  font-size: 2.7rem;
+  color: #fcfedc;
+  text-shadow: var(--textShadow);
+  margin-left: 7%;
+  margin-top: 1.5rem;
+}
+
+.testimonials {
+  width: 95%;
+  height: 23.4rem;
+  border-radius: 10px;
+  background-color: rgba(12, 12, 12, 0.61);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.812rem;
+  margin-bottom: 3.125rem;
+  box-shadow: 2px 2px 25px 2px rgba(244, 239, 255, 0.397);
+  overflow: hidden;
+}
+
+#slider {
+  position: relative;
+  font-family: var(--writingFont);
+  padding: 5rem 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 370;
+  text-align: center;
+  color: var(--white);
+  margin: 0;
+  animation-name: slide;
+  animation-duration: 15000ms;
+  animation-iteration-count: infinite;
+}
+
+#customer {
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+  color: var(--white);
+  float: right;
+  margin-right: 2rem;
+  animation-name: slide;
+  animation-duration: 15000ms;
+  animation-iteration-count: infinite;
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-weight: 400;
+  text-align: center;
+  color: lightgrey;
+  margin: 0;
+  position: relative;
+  bottom: 77px;
+}
+
+/* Animation for sliding testimonials */
+
+@keyframes slide {
+  0% {
+    left: 500px;
+  }
+  20% {
+    left: 0px;
+  }
+  80% {
+    left: 0px;
+  }
+  100% {
+    left: -500px;
+  }
+}
+
+/* For extra small screens */
+
+@media screen and (max-width: 281px) {
+  .testimonials {
+    height: 27rem;
+  }
+}
+
+/* For desktop and tablet */
+
+@media screen and (min-width: 501px) {
+  .testimonials {
+    width: 31.25rem;
+    height: 21.875rem;
+  }
+}

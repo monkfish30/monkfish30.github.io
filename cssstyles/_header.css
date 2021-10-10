@@ -1,0 +1,65 @@
+/* For mobile */
+
+.header {
+  flex-direction: row;
+  background-color: var(--blue);
+  height: 5.62rem;
+  width: 100%;
+  margin-top: 3%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  height: 5.4rem;
+  width: auto;
+}
+
+.nav {
+  display: none;
+}
+
+.burgermenu {
+  width: 49px;
+  height: 37px;
+  margin-left: 2rem;
+  margin-right: 5%;
+}
+
+.burgermenu span {
+  width: 48px;
+  height: 16px;
+  border-top: 4px solid var(--yellow);
+  display: block;
+}
+
+.burgermenu:hover > span {
+  cursor: pointer;
+  border-top-color: var(--grey);
+}
+
+/* For desktop and tablet*/
+
+@media screen and (min-width: 648px) {
+  .nav {
+    display: flex;
+    margin-right: 137px;
+  }
+
+  .nav a {
+    padding: 6%;
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .nav a:hover {
+    color: var(--yellow);
+  }
+
+  .burgermenu {
+    display: none;
+  }
+}
