@@ -97,6 +97,22 @@ h4 {
   text-align: center;
 }
 
+:root {
+  /* Font */
+  --font: "Raleway", sans-serif;
+  --writingFont: cursive;
+
+  /* Colours */
+  --blue: hsla(236, 100%, 49%, 0.75);
+  --white: white;
+  --yellow: yellow;
+  --grey: rgb(191, 201, 201);
+
+  /* Text Shadow */
+  --textShadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 /* For Mobile */
 
 /* Contact Form Styles */
@@ -208,21 +224,7 @@ textarea {
   }
 }
 
-:root {
-  /* Font */
-  --font: "Raleway", sans-serif;
-  --writingFont: cursive;
 
-  /* Colours */
-  --blue: hsla(236, 100%, 49%, 0.75);
-  --white: white;
-  --yellow: yellow;
-  --grey: rgb(191, 201, 201);
-
-  /* Text Shadow */
-  --textShadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
 
 
 /* For Mobile */
