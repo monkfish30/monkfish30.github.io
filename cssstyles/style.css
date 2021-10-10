@@ -13,9 +13,8 @@ body {
   font-family: var(--font);
   margin: 0;
   padding: 0;
-  
   overflow-x: hidden;
-  background-image: url("/images/onbench.jpg");
+  background-image: url("/images/front.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
