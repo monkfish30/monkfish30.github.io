@@ -13,7 +13,7 @@ body {
   font-family: var(--font);
   margin: 0;
   padding: 0;
-  /*line-height: 1.3rem;*/
+  
   overflow-x: hidden;
   background-image: url("/images/front.jpg");
   background-repeat: no-repeat;
