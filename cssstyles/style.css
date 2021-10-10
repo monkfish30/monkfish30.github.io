@@ -113,6 +113,46 @@ h4 {
     1px 1px 0 #000;
 }
 
+/* For mobile */
+
+.home {
+  border-top: 25px solid transparent;
+  border-image: url(/images/dalabanner2.jpg) 30 round;
+  margin-top: 2%;
+  padding: 1rem;
+}
+
+li {
+  line-height: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.home img {
+  margin-top: 1.25rem;
+  margin-left: 1rem;
+  width: 86%;
+}
+
+/* For desktop and tablet */
+
+@media screen and (min-width: 648px) {
+  .home {
+    padding: 3rem 0;
+  }
+
+  .home img {
+    margin-left: 3rem;
+    margin-right: 5rem;
+    margin-top: 0;
+    width: 25rem;
+    float: right;
+  }
+
+  li {
+    margin-left: 2rem;
+  }
+}
+
 /* For Mobile */
 
 /* Contact Form Styles */
