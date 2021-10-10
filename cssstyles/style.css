@@ -7,6 +7,118 @@
 @import "_about.css";
 @import "_prices.css";
 @import "_contact.css";
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+  /*line-height: 1.3rem;*/
+  overflow-x: hidden;
+  background-image: url("/images/front.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Fonts */
+
+h1 {
+  padding: 1.5rem 1.25rem 0;
+  font-size: 2rem;
+}
+
+h4 {
+  padding: 0 1.25rem 0.625rem;
+}
+
+/* Different sections */
+
+.section {
+  width: 98%;
+  background-color: var(--white);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+/* Flex Box */
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Columns within sections */
+
+.column {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 95%;
+}
+
+/* Titles */
+
+.miniheadline {
+  padding: 0.08rem 0 0.08rem 5rem;
+  margin: 0;
+  font-size: 2.7rem;
+  border-top: 2px solid #f8f804;
+  border-bottom: 2px solid #f8f804;
+  font-weight: lighter;
+}
+
+.miniheadline2 {
+  padding: 0.08rem 5rem 0.08rem 0rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  font-size: 2.7rem;
+  border-top: 2px solid #f8f804;
+  border-bottom: 2px solid #f8f804;
+  font-weight: lighter;
+}
+
+/* Buttons */
+
+.button {
+  background-color: rgb(29, 221, 231);
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
 .aboutcolumn1 {
   margin-bottom: 6rem;
 }
