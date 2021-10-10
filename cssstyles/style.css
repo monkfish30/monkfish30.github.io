@@ -1,3 +1,59 @@
+/* For Mobile */
+
+/* Contact Form Styles */
+
+.contactcolumn1 {
+  margin: 2rem auto auto;
+  padding: 0 1rem;
+}
+
+.contactcolumn2 {
+  margin: 2rem auto auto;
+}
+
+.contactcolumn2 textarea {
+  resize: none;
+  width: 100%;
+  min-height: 8rem;
+  overflow: hidden;
+}
+
+.contactcolumn2 form {
+  width: 100%;
+  margin-right: 3rem;
+}
+
+.contactcolumn2 li {
+  list-style: none;
+}
+
+.contactcolumn2 li input,
+textarea {
+  background-color: rgba(77, 99, 228, 0.548);
+}
+
+#telephone,
+#email,
+#name {
+  height: 3rem;
+  width: 100%;
+}
+
+/* For desktop and tablet */
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
 /* For mobile */
 
 .header {
