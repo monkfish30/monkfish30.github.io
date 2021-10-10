@@ -1,12 +1,4 @@
-@import "_variables.css";
-@import "_globals.css";
-@import "_header.css";
-@import "_mobilemenu.css";
-@import "_testimonials.css";
-@import "_home.css";
-@import "_about.css";
-@import "_prices.css";
-@import "_contact.css";
+
 :root {
   /* Font */
   --font: "Raleway", sans-serif;
