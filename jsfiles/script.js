@@ -32,7 +32,7 @@ setTimeout('change()', delay);
 $(document).ready(function(){
 
  change();
-});
+
  //Mobile menu toggle
 
 $(function() {
@@ -40,7 +40,7 @@ $(function() {
     mobMenuToggle();
     closeMobMenu();
 });
-
+});
 //Toggle mobile menu
 
 function mobMenuToggle() {
