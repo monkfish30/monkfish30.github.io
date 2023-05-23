@@ -57,7 +57,7 @@ function mobMenuToggle() {
 
 function closeMobMenu() {
 
-    $("html").click(function(){
+    $("document").click(function(){
 
     $(".mobilemenu").hide();
    
