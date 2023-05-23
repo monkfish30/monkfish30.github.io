@@ -17,7 +17,7 @@
 .aboutcolumn2 p {
   font-family: var(--writingFont);
   padding: 0 2rem;
-  background-color: rgba(229,55, 255, 0.562);
+  background-color: rgba(229, 255, 0, 0.562);
 }
 
 .aboutcolumn2 img {
