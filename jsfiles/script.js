@@ -32,7 +32,7 @@ setTimeout('change()', delay);
 $(document).ready(function(){
 
  change();
-
+})
  //Mobile menu toggle
 
 $ (function() {
@@ -78,7 +78,7 @@ $(window).resize(function() {
 
 
 
-});
+
 
 
 
