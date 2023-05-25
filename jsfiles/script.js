@@ -41,7 +41,7 @@ $(function() {
     closeMobMenu();
 
 });
-Toggle mobile menu
+//Toggle mobile menu
 
 function mobMenuToggle() {
 
@@ -55,15 +55,15 @@ function mobMenuToggle() {
 
 //Close mobile menu on click away
 
-function closeMobMenu() {
+//function closeMobMenu() {
 
-    $("html").click(function(){
+    //$("html").click(function(){
 
-    $(".mobilemenu").hide();
+   // $(".mobilemenu").hide();
    
-})
+//})
 
-};
+//};
 
 //Close mobile menu when resizing screen
 
