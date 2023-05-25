@@ -39,9 +39,9 @@ $(function() {
 
     mobMenuToggle();
     closeMobMenu();
+
 });
-});
-//Toggle mobile menu
+Toggle mobile menu
 
 function mobMenuToggle() {
 
@@ -72,7 +72,7 @@ $(window).resize(function() {
    $(".mobilemenu").hide();
 });
 
-
+});
 
 
 
