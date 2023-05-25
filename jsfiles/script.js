@@ -55,22 +55,22 @@ function mobMenuToggle() {
 
 //Close mobile menu on click away
 
-//function closeMobMenu() {
+function closeMobMenu() {
 
-    //$("html").click(function(){
+    $("html").click(function(){
 
-   // $(".mobilemenu").hide();
+    $(".mobilemenu").hide();
    
-//})
+})
 
-//};
+};
 
 //Close mobile menu when resizing screen
 
-$(window).resize(function() {
+//$(window).resize(function() {
 
-   $(".mobilemenu").hide();
-});
+   //$(".mobilemenu").hide();
+//});
 
 });
 
