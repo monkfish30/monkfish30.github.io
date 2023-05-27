@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 $(function() {
 
-    mobMenuToggle();
+    mobMenuToggle(
     closeMobMenu();
 
 });
@@ -57,7 +57,7 @@ function mobMenuToggle() {
 
 function closeMobMenu() {
 
-    $("window").click(function(){
+    $("html").click(function(){
 
     $(".mobilemenu").hide();
    
