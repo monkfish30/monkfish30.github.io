@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 $(function() {
 
-    mobMenuToggle(
+    mobMenuToggle()
     closeMobMenu();
 
 });
@@ -67,10 +67,10 @@ function closeMobMenu() {
 
 //Close mobile menu when resizing screen
 
-//$(window).resize(function() {
+$(window).resize(function() {
 
-   //$(".mobilemenu").hide();
-//});
+   $(".mobilemenu").hide();
+});
 
 });
 
