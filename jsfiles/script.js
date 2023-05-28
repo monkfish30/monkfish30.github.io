@@ -65,7 +65,7 @@ function closeMobMenu() {
 
 };
 
-Close mobile menu when resizing screen
+//Close mobile menu when resizing screen
 
 $(window).resize(function() {
 
