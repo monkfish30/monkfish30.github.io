@@ -41,7 +41,7 @@
 
 /* For desktop and tablet*/
 
-@media screen and (min-width: 648px) {
+@media screen and (min-width: 500px) {
   .nav {
     display: flex;
     margin-right: 137px;
