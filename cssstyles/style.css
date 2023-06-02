@@ -213,7 +213,7 @@ mobilemenu {
   position: sticky;
   z-index: 3;
   top: 90px;
-  display: block;
+  display: none;
 }
 
 .mobilemenu a {
