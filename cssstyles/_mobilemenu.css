@@ -1,7 +1,7 @@
 .mobilemenu {
   width: 100%;
   height: auto;
-  background-color: blue;
+  background-color: var (--blue);
   position: sticky;
   z-index: 2;
   top: 90px;
