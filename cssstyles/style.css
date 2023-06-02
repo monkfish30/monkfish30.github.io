@@ -230,11 +230,10 @@ mobilemenu {
   color: black;
 }
 
-@media screen and (min-width: 100px) {
-  .mobilemenu {
-    display: none !important;
-  }
-}
+
+ 
+
+
 
 
 /* For mobile */
