@@ -3,7 +3,7 @@
   height: auto;
   background-color: var (--blue);
   position: sticky;
-  z-index: 2;
+  z-index: 1;
   top: 90px;
   display: none;
 }
