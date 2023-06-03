@@ -46,7 +46,7 @@ $(function() {
 function mobMenuToggle() {
 
     $(".burgermenu").click(function(){
-        $(".mobilemenu").slideToggle("fast");
+        $(".mobilemenu", ".mobilemenu a").slideToggle("fast");
 
         return false
     })
