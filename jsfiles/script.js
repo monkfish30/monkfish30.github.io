@@ -40,14 +40,14 @@ $(function() {
     mobMenuToggle()
     closeMobMenu();
     
-    return false
+   
 
 });
 //Toggle mobile menu
 
 function mobMenuToggle() {
 
-    $(".burgermenu").click(function(){
+    $(".burgermenu").hover(function(){
         $(".mobilemenu").slideToggle("fast");
 
         return false
