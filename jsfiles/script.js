@@ -36,7 +36,7 @@ $(document).ready(function(){
  //Mobile menu toggle
 
 $(function() {
-
+$(.mobilemenu).display("none);
     mobMenuToggle()
     closeMobMenu();
     
@@ -47,7 +47,7 @@ $(function() {
 
 function mobMenuToggle() {
 
-    $(".burgermenu").hover(function(){
+    $(".burgermenu").click(function(){
         $(".mobilemenu").slideToggle("fast");
 
         return false
