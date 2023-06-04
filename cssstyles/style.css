@@ -213,7 +213,7 @@ h3 {
   position: sticky;
   z-index: 1;
   top: 90px;
-  display: none;
+  display: block;
 }
 
 .mobilemenu a {
