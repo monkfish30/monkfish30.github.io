@@ -209,7 +209,7 @@ h3 {
 .mobilemenu {
   width: 100%;
   height: auto;
-  color: var (--white)
+  background-color: var(--blue)
   position: sticky;
   z-index: 1;
   top: 90px;
