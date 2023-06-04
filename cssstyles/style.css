@@ -208,11 +208,11 @@ h3 {
 
 .mobilemenu {
   width: 100%;
-  height: auto;
+  height: 6rem;
   background-color: var(--blue)
   position: sticky;
   z-index: 1;
-  top: 90px;
+  top: 0;
   display: none;
 }
 
