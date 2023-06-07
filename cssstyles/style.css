@@ -209,9 +209,9 @@ h3 {
 .mobilemenu {
   width: 100%;
   height: 6rem;
-  background-color: var(--blue)
+  background-color: black;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   display: none;
 }
@@ -225,7 +225,7 @@ h3 {
   font-weight: 500;
   text-decoration: none;
   display: block;
-  z-index: 2
+  z-index: 3
 }
 
 .mobilemenu a:hover {
