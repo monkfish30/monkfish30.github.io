@@ -2,7 +2,7 @@
 
 /* Table Styles */
 
-.pricescolumn1 {
+/*.pricescolumn1 {
   width: 100%;
   padding: 0 1rem;
 }
@@ -30,7 +30,7 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: rgba(236, 225, 218, 0.438);
 }
-
+*/
 .table,
 th,
 td {
