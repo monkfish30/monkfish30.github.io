@@ -212,6 +212,7 @@ h3 {
   background-color: black;
   position: sticky;
   z-index: 1;
+  margin-top: 3%;
   top: 5.62rem;
   display: none;
 }
@@ -224,7 +225,6 @@ h3 {
   font-weight: 500;
   text-decoration: none;
   display: block;
-  z-index: 2
 }
 
 .mobilemenu a:hover {
