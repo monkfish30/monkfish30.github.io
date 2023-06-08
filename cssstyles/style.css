@@ -212,7 +212,7 @@ h3 {
   background-color: black;
   position: sticky;
   z-index: 1;
-  margin-top: 5%
+  top: 5.62rem;
   display: none;
 }
 
