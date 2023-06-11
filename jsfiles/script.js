@@ -50,7 +50,7 @@ function mobMenuToggle() {
     $(".burgermenu").click(function(){
        
         $(".mobilemenu").slideToggle("fast");
-
+$(".mobilemenu a:hover").slideToggle("fast");
         return false
     })
 };
