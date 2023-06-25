@@ -311,7 +311,7 @@ li {
 
 .contactcolumn2 li input,
 textarea {
-  background-color: rgba(120, 99, 228, 0.548);
+  background-color: rgba(120, 200, 228, 0.548);
 }
 
 #telephone,
@@ -319,7 +319,7 @@ textarea {
 #name {
   height: 3rem;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid black 1px;
 }
 
 
