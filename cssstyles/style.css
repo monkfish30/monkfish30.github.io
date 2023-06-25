@@ -316,8 +316,9 @@ li {
 #name {
   height: 3rem;
   width: 100%;
-  border: 1px solid black 3px;
-  background-color: rgba(100, 200, 230, 0.7);
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgba(100, 20, 230, 0.7);
 }
 
 
