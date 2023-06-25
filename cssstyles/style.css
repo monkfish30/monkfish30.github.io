@@ -311,10 +311,11 @@ li {
 
 .contactcolumn2 li input,
 textarea {
-  background-color: rgba(120, 200, 228, 0.548);
+  background-color: rgba(yellow, 0.548);
 }
 
 #telephone,
+#textarea,
 #email,
 #name {
   height: 3rem;
