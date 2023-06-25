@@ -299,6 +299,9 @@ li {
   width: 100%;
   min-height: 8rem;
   overflow: hidden;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgba(30, 20, 230, 0.7);
 }
 
 .contactcolumn2 form {
@@ -311,14 +314,13 @@ li {
 }
 
 #telephone,
-#textarea,
 #email,
 #name {
   height: 3rem;
   width: 100%;
   border: 2px solid black;
   border-radius: 2px;
-  background-color: rgba(100, 20, 230, 0.7);
+  background-color: rgba(30, 20, 230, 0.7);
 }
 
 
