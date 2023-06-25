@@ -309,18 +309,14 @@ li {
   list-style: none;
 }
 
-.contactcolumn2 li input,
-textarea {
-  background-color: rgba(yellow, 0.548);
-}
-
 #telephone,
 #textarea,
 #email,
 #name {
   height: 3rem;
   width: 100%;
-  border: 1px solid black 1px;
+  border: 1px solid black 2px;
+  background-color: yellow;
 }
 
 
