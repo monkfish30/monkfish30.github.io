@@ -318,7 +318,7 @@ li {
 #telephone,
 #email,
 #name {
-  font-family: arial;
+font: arial;
   height: 3rem;
   width: 100%;
   padding: 5px;
