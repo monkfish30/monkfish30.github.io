@@ -335,7 +335,7 @@ li {
 
 .header {
   flex-direction: row;
-  background-color: rgba(0, 0, 255, 0.39);
+  background-color: var(--blue);
   height: 5.62rem;
   width: 100%;
   margin-top: 3%;
