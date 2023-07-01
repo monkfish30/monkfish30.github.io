@@ -35,18 +35,15 @@ h4 {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: red;
-  font-family: arial; /* Firefox */
+  font-family: var(--font); /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: red;
-  font-family: arial;
+  font-family: var(--font);
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: red;
-  font-family: arial;
+  font-family: var(--font);
 }
 
 /* Different sections */
