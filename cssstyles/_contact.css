@@ -39,4 +39,19 @@ textarea {
   width: 100%;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  font-family: arial; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+  font-family: arial;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
+  font-family: arial;
+}
+
 /* For desktop and tablet */
