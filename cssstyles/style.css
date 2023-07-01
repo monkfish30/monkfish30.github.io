@@ -313,7 +313,7 @@ li {
   border: 2px solid black;
   border-radius: 5px;
   background-color: rgba(174, 185, 255, 0.39);
-  padding: 5px;
+  padding: 0 0 0 1rem;
 }
 
 .contactcolumn2 form {
@@ -330,7 +330,7 @@ li {
 #name {
   height: 3rem;
   width: 100%;
-  padding: 5rem 0 0 0;
+  padding: 0 0 0 1rem;
   border: 2px solid black;
   border-radius: 5px;
   background-color: rgba(174, 185, 255, 0.39)
