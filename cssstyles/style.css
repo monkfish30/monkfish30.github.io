@@ -508,7 +508,7 @@ h2 {
   border: 2px solid black;
   border-radius: 5px;
   background-color: rgba(174, 185, 255, 0.39);
-  padding: 1 1 1 1.5rem;
+  padding: 1rem 1rem 1.5rem 1rem;
 }
 
 .contactcolumn2 form {
@@ -525,7 +525,7 @@ h2 {
 #name {
   height: 3rem;
   width: 100%;
-  padding: 1 1 1 1.5rem;
+  padding: 1rem 1rem 1.5rem 1rem;
   border: 2px solid black;
   border-radius: 5px;
   background-color: rgba(174, 185, 255, 0.39)
