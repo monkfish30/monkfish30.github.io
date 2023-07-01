@@ -354,6 +354,11 @@ li {
     float: right;
   }
 
+  @media screen and (min-width: 1754px) {
+  .home img {
+    height: 40px;
+  }
+
   li {
     margin-left: 2rem;
   }
