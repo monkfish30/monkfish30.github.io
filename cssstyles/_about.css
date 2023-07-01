@@ -1,0 +1,60 @@
+/* About section */
+
+
+.aboutcolumn1 {
+  margin-bottom: 6rem;
+}
+
+.aboutcolumn1 img {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 8%;
+}
+
+.aboutcolumn2 {
+  margin-top: -3rem;
+}
+
+.aboutcolumn2 p {
+  font-family: var(--writingFont);
+  padding: 0 2rem;
+  background-color: rgba(229, 255, 0, 0.562);
+}
+
+.aboutcolumn2 img {
+  margin-left: -3%;
+  padding-bottom: 1%;
+}
+
+#rightquote {
+  margin-left: 90%;
+  padding-top: 1%;
+}
+
+.aboutcolumn2 strong {
+  margin-left: 80%;
+  display: inline-block;
+}
+
+.aboutcolumn2 div {
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 0.75rem;
+}
+
+/* About For desktop and tablet */
+
+@media screen and (min-width: 900px) {
+  .about {
+    flex-direction: row;
+  }
+
+  .aboutcolumn2 {
+    margin: 0;
+    margin-right: 3%;
+  }
+
+  .aboutcolumn1 img {
+    margin-left: 25%;
+  }
+}
