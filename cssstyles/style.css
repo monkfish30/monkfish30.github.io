@@ -34,6 +34,21 @@ h4 {
   padding: 0 1.25rem 0.625rem;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  font-family: arial; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+  font-family: arial;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
+  font-family: arial;
+}
+
 /* Different sections */
 
 .section {
